@@ -38,3 +38,65 @@
     	 return stack.isEmpty();
     }
     }
+
+
+### 思路2
+
+根据，括号顺序先是`(,{,[`,先把这些内容放到栈里，然后遇到`)}]`时，就出栈，判断栈中内容是不是`({[`
+
+    public boolean isValid(String s) {
+        Stack<Character> stack = new Stack<>();
+        for (int i = 0; i < s.length(); i++) {
+            switch (s.charAt(i)) {
+                case '(':
+                    stack.push('(');
+                    break;
+                case '{':
+                    stack.push('{');
+                    break;
+                case '[':
+                    stack.push('[');
+                    break;
+                case ')':
+                    if (stack.size() == 0 || stack.pop() != '(')
+                        return false;
+                    break;
+                case '}':
+                    if (stack.size() == 0 || stack.pop() != '{')
+                        return false;
+                    break;
+                case ']':
+                    if (stack.size() == 0 || stack.pop() != '[')
+                        return false;
+                    break;
+            }
+        }
+        return stack.isEmpty();
+    }
+
+### 再次减少代码量
+
+
+    public class Solution {
+        public boolean isValid(String s) {
+            if(s==null||s.length()%2==1)
+                return false;
+            Stack<Character> stack = new Stack<>();
+            for(int i=0;i<s.length();i++){
+                char c = s.charAt(i);
+                if(c=='['||c=='{'||c=='(')
+                    stack.push(c);
+                else{
+                    if(stack.isEmpty())
+                        return false;
+                    else if(c==']' && stack.pop()!='[')
+                        return false;
+                    else if(c==')' && stack.pop()!='(')
+                        return false;
+                    else if(c=='}' && stack.pop()!='{')
+                        return false;
+                }
+            }
+            return stack.isEmpty();
+        }
+    }
