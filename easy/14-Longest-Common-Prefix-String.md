@@ -1,4 +1,4 @@
-## [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)
+## [14. 返回两个字符串的公共前缀Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)
 ------
 从一组字符串中找到共有的最长前缀
 

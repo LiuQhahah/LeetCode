@@ -1,4 +1,4 @@
-## [反整数Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)
+## [将整数逆序输出Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)
 
 ## 描述：
 

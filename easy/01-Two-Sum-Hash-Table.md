@@ -1,4 +1,4 @@
-# [Two Sum](https://leetcode.com/problems/two-sum/description/)
+# [一个数，由数组中两元素相加得到，返回这两个数的偏移量Two Sum](https://leetcode.com/problems/two-sum/description/)
 -----------------------------
 
 ## 问题描述

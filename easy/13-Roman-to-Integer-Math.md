@@ -1,4 +1,4 @@
-# [ Roman to Integer 将罗马数字转化为整形](https://en.wikipedia.org/wiki/Roman_numerals)
+# [ Roman to Integer 将罗马数字转化为阿拉伯数字](https://en.wikipedia.org/wiki/Roman_numerals)
 
 
 ## 罗马字母定义

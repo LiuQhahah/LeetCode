@@ -1,4 +1,4 @@
-## [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
+## [20. 判断括号是否成对出现Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
 
 ### 括号要成对出现，否则为错
 ``'(', ')', '{', '}', '[' and ']'``

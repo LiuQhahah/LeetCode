@@ -1,4 +1,4 @@
-# [Palindrome Number 回文数](https://leetcode.com/problems/palindrome-number/description/)
+# [Palindrome Number 判断是否为回文数](https://leetcode.com/problems/palindrome-number/description/)
 
 
 ## 描述

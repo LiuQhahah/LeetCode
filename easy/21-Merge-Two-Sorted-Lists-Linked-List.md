@@ -1,4 +1,4 @@
-## [21. Merge Two Sorted Lists 合并两个排好序的链表](https://leetcode.com/problems/merge-two-sorted-lists/description/)
+## [21. Merge Two Sorted Lists 将两个排好序的链表合并成一个](https://leetcode.com/problems/merge-two-sorted-lists/description/)
 
 
 合并两个排序后的链接列表并将其作为新列表返回。 新列表应通过拼接前两个列表的节点来完成。
