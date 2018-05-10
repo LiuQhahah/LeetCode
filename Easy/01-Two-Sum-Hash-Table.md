@@ -19,6 +19,8 @@
 
 ### code(java):
 
+```java
+
     class Solution {
         public int[] twoSum(int[] nums, int target) {
             int len = nums.length;
@@ -32,3 +34,4 @@
             return null;
         }
     }
+```
