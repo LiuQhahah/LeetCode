@@ -10,7 +10,7 @@
 
 
 ### 思路1 递归
-
+```java
     class Solution {
 
       //递归
@@ -28,10 +28,11 @@
           }
       }
   }
+  ```
 
 ### 思路2 迭代
 
-
+```java
     class Solution {
         public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
             ListNode head = new ListNode(0);
@@ -50,3 +51,4 @@
             return head.next;
         }
     }
+```
